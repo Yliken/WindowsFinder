@@ -15,13 +15,15 @@ func list() {
 }
 
 func Menu() {
-	list()
-	var choice int
-	fmt.Scanf("%d", &choice)
-	switch choice {
-	case 1:
-		function.BasicCollect()
-	default:
-		return
+	for {
+		list()
+		var choice int
+		fmt.Scanf("%d", &choice)
+		switch choice {
+		case 1:
+			function.BasicCollect()
+		default:
+			return
+		}
 	}
 }
