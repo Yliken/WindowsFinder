@@ -16,7 +16,7 @@ var (
 )
 
 // 参数 level 查询更多的信息
-func collectSystemUserInfo(level uint32) {
+func CollectSystemUserInfo(level uint32) {
 	//加载 相关dll 以及 函数
 	netapi32 := syscall.NewLazyDLL("netapi32.dll")
 	netUserEnum := netapi32.NewProc("NetUserEnum")

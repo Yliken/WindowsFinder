@@ -1,5 +1,5 @@
 package function
 
 func BasicCollect() {
-	collectSystemUserInfo(0)
+	CollectSystemUserInfo(0)
 }
