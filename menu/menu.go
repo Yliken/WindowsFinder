@@ -10,7 +10,7 @@ func init() {
 	config.Banner()
 }
 func list() {
-	fmt.Println(" Windows finder menu ")
+	fmt.Println(" ****Windows finder menu**** ")
 	fmt.Println("1. 进行一些基础信息收集")
 }
 

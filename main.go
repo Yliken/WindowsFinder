@@ -4,5 +4,4 @@ import "windowsFinder/menu"
 
 func main() {
 	menu.Menu()
-
 }
