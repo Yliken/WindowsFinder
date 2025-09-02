@@ -19,6 +19,7 @@ func list() {
 	fmt.Println("1. 进行一些基础信息收集")
 	fmt.Println("2. 进行用户信息信息收集")
 	fmt.Println("3. 收集RDP相关的信息(事件 21, 事件25, 事件 1149)")
+	fmt.Println("4. 收集系统进程信息")
 }
 
 func Menu() {
@@ -42,6 +43,8 @@ func Menu() {
 			UserInfoMean()
 		case 3:
 			function.CollectRDPInfo()
+		case 4:
+			function.ProcessEnum()
 		default:
 			return
 		}
